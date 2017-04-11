@@ -7,7 +7,7 @@ body{
 }
 
 .jumbo{
-    background-color: $primary-color;
+    background-image: url('https://source.unsplash.com/collection/669012');
     background-size: cover;
     background-attachment: fixed;
     padding: 135px 0;
@@ -18,4 +18,19 @@ body{
     color: #fff;
     text-align: center;
     margin-bottom: 15px;
+}
+.top-bar, .top-bar ul{
+  background-color: #4A4A4A;
+}
+.callout{
+  background-color: #4A4A4A;
+}
+.menu-text{
+  color: white;
+}
+.label{
+  color: #4A4A4A;
+}
+.subheader{
+  color: white;
 }
