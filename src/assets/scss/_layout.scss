@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+
+.bars span{
+    font-size: 18px !important;
+}
+
+.jumbo{
+    background-color: $primary-color;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 135px 0;
+    margin-bottom: 30px;
+}
+
+.jumbo h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+}
