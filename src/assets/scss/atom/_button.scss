@@ -1,0 +1,8 @@
+.button{
+    background-color: $primary-color;
+    color: $secondary-color;
+  &:hover{
+    background-color: #FEDC70;
+    color: $secondary-color;
+  }
+}
