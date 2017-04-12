@@ -15,13 +15,13 @@ footer p{
 .logo{
   width: 70px;
 }
-.bars h3{
+.bar h3{
   text-transform: uppercase;
 }
-.bars span{
+.bar span{
     font-size: 18px !important;
 }
-.bars .adresse {
+.bar .adresse {
   font-style: italic;
   font-size: 13px;
 }
@@ -49,6 +49,9 @@ footer p{
     text-align: center;
     margin-bottom: 15px;
 }
+.recents h2{
+  text-transform: uppercase;
+}
 .recents, .bot{
   padding: 45px 0;
 }
@@ -56,6 +59,10 @@ footer p{
   background-color: rgba(0,0,0,0.3);
   width:100%;
   height: 100%;
+}
+#div_horloge{
+  color: $secondary-color;
+  font-size: 14px;
 }
 .top-bar, .top-bar ul{
   background-color: $secondary-color;
@@ -72,4 +79,7 @@ footer p{
 }
 .subheader{
   color: white;
+}
+.ferme {
+  background-color: rgba(47, 47, 47, 0.6);
 }
