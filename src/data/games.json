@@ -2,33 +2,145 @@
   {
     "name": "CAFE OZ AUSTRALIAN BAR LILLE",
     "adresse": "33, Place Louise de Bettignies, 59000 Lille",
-    "telephone": "03.20.55.15.15",
-    "jours": "Lundi , Mardi & Samedi",
+    "jours": "Lundi , Mardi, Samedi",
     "de": "17h",
-    "a": "21h "
+    "a": "21h ",
+    "quartier": "vieux lille"
   },
   {
-    "name": "CAFE OZ AUSTRALIAN BAR LILLE",
-    "adresse": "33, Place Louise de Bettignies, 59000 Lille",
-    "telephone": "03.20.55.15.15",
-    "jours": "Lundi , Mardi & Samedi",
+    "name": "THE QUEEN'S HEAD",
+    "adresse": "2, avenue du Peuple Belge, 59000 Lille",
+    "jours": "Mardi, Samedi",
     "de": "17h",
-    "a": "21h "
+    "a": "21h ",
+    "quartier": "vieux lille"
   },
   {
-    "name": "CAFE OZ AUSTRALIAN BAR LILLE",
-    "adresse": "33, Place Louise de Bettignies, 59000 Lille",
-    "telephone": "03.20.55.15.15",
-    "jours": "Lundi , Mardi & Samedi",
-    "de": "17h",
-    "a": "21h "
+    "name": "L'Absurde",
+    "adresse": "11 Place Nouvelle Aventure, 59000 Lille",
+    "jours": "Lundi à Samedi",
+    "de": "20h",
+    "a": "21h ",
+    "quartier": "wazemmes"
   },
   {
-    "name": "CAFE OZ AUSTRALIAN BAR LILLE",
-    "adresse": "33, Place Louise de Bettignies, 59000 Lille",
-    "telephone": "03.20.55.15.15",
-    "jours": "Lundi , Mardi & Samedi",
+    "name": "L'Irlandais",
+    "adresse": "160 rue Solferino, 59000 Lille",
+    "jours": "Lundi à Samedi",
     "de": "17h",
-    "a": "21h "
+    "a": "23h ",
+    "quartier": "massena"
+  },
+  {
+    "name": "L'Imprevu",
+    "adresse": "18 rue Massena, 59800 Lille",
+    "jours": "Lundi à Samedi",
+    "de": "17h",
+    "a": "20h ",
+    "quartier": "massena"
+  },
+  {
+    "name": "Bar à thym",
+    "adresse": "219 rue Nationale, 59800 Lille",
+    "jours": "Lundi à Samedi",
+    "de": "14h",
+    "a": "19h30 ",
+    "quartier": "hyper centre"
+  },
+  {
+    "name": "Drugstore café",
+    "adresse": "21 rue Royale, 59800 Lille",
+    "jours": "Lundi à Samedi",
+    "de": "12h",
+    "a": "21h ",
+    "quartier": "vieux lille"
+  },
+  {
+    "name": "The Fridge",
+    "adresse": "166 rue Solférino, 59800 Lille",
+    "jours": "Lundi à Samedi",
+    "de": "17h",
+    "a": "21h ",
+    "quartier": "massena"
+  },
+  {
+    "name": "Le Square",
+    "adresse": "8 Square Morisson, 59800 Lille",
+    "jours": "Lundi à Samedi",
+    "de": "15h",
+    "a": "00h ",
+    "quartier": "hyper centre"
+  },
+  {
+    "name": "O'Passage",
+    "adresse": "Rue Saint etienne, 59800 Lille",
+    "jours": "Lundi à Samedi",
+    "de": "21h",
+    "a": "22h35 ",
+    "quartier": "hyper centre"
+  },
+  {
+    "name": "L'appart café",
+    "adresse": "286 Rue nationale, 59800 Lille",
+    "jours": "Lundi à Samedi",
+    "de": "16h",
+    "a": "20h ",
+    "quartier": "vauban"
+  },
+  {
+    "name": "Brasserie de la cloche",
+    "adresse": "13 Pl.du Théâtre, 59800 Lille",
+    "jours": "Lundi à Samedi",
+    "de": "17h",
+    "a": "22h ",
+    "quartier": "hyper centre"
+  },
+  {
+    "name": "Le Berkeley",
+    "adresse": "13 rue Philippe-Laurent Roland, 59800 Lille",
+    "jours": "Lundi à Samedi",
+    "de": "17h30",
+    "a": "20h ",
+    "quartier": "vauban"
+  },
+  {
+    "name": "Le Relax",
+    "adresse": "48 Place Nouvelle Aventure, 59000 Lille",
+    "jours": "Lundi à Samedi",
+    "de": "18h",
+    "a": "19h ",
+    "quartier": "wazemmes"
+  },
+  {
+    "name": "Le Beerstrot",
+    "adresse": "10 rue du Pont Neuf, 59000 Lille",
+    "jours": "Lundi à Samedi",
+    "de": "17h",
+    "a": "19h ",
+    "quartier": "vieux lille"
+  },
+  {
+    "name": "Le Django",
+    "adresse": "20 rue de Gand, 59800 Lille",
+    "jours": "Lundi à Samedi",
+    "de": "17h",
+    "a": "21h ",
+    "quartier": "vieux lille"
+  },
+  {
+    "name": "3 Brasseurs",
+    "adresse": "Gare de Lille-Flandres, Lille",
+    "jours": "Lundi à Samedi",
+    "de": "16h",
+    "a": "18h ",
+    "quartier": "hyper centre"
+  },
+  {
+    "name": "Le Bistronome",
+    "adresse": "323 Boulevard du Président Hoover,59800 Lille",
+    "jours": "Lundi à Samedi",
+    "de": "18h",
+    "a": "20h ",
+    "quartier": "hyper centre"
   }
 ]
