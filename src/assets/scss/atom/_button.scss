@@ -1,3 +1,5 @@
+$fbmsg:#0084FF;
+
 .button{
     background-color: $primary-color;
     color: $secondary-color;
@@ -8,5 +10,23 @@
   &:visited{
     background-color: $primary-color;
     color: $secondary-color;
+  }
+}
+
+.button-msg{
+  @include button;
+  background-color: $primary-color;
+    color: $secondary-color;
+  &:hover{
+    background-color: #FEDC70;
+    color: $secondary-color;
+  }
+  &:visited{
+    background-color: $primary-color;
+    color: $secondary-color;
+  }
+  svg{
+    fill:$fbmsg;
+    width:15px;
   }
 }
