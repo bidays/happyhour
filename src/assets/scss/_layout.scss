@@ -1,3 +1,4 @@
+@import url('http://fonts.googleapis.com/css?family=Nixie+One');
 body{
     text-align: center;
 }
@@ -13,47 +14,73 @@ footer p{
   margin: 0;
 }
 .logo{
-  width: 70px;
+  width: 150px;
 }
-.bar h3{
-  text-transform: uppercase;
-}
-.bar span{
+.bar {
+  h3{
+    text-transform: uppercase;
+  }
+  span{
     font-size: 18px !important;
+  }
+  .adresse{
+    font-style: italic;
+    font-size: 13px;
+  }
 }
-.bar .adresse {
-  font-style: italic;
-  font-size: 13px;
-}
+
+//------------------------------ SECTION BOT -----------------------------------------------
+
 .bot{
+  img{
+    width: 360px;
+  }
+  .bot p{
+    margin-bottom: 25px;
+  }
+}
+.quartier{
   background-color: $secondary-color;
   color: white;
+  p{
+    margin-bottom: 35px;
+  }
+  .button{
+    margin: 5px;
+  }
 }
-.bot p {margin-bottom: 35px; }
-.bot h3{
+.quartier h3 ,.bot h3{
   text-transform: uppercase;
   font-size: 22px;
   margin-top: 40px;
 }
 .jumbo{
-    color: white;
-    background-image: url('https://source.unsplash.com/collection/669012');
-    background-size: cover;
-    background-attachment: fixed;
-}
-.jumbo .row {
+  color: white;
+  background-image: url('https://source.unsplash.com/collection/669012');
+  background-size: cover;
+  background-attachment: fixed;
+  @include breakpoint(small down) {
+    background-attachment: scroll;
+    background-position: center center;
+  }
+  .row{
   padding: 140px 0;
-}
-.jumbo h2{
+  }
+  h1{
     color: white;
     text-align: center;
     margin-bottom: 15px;
+    @include breakpoint(small down) {
+      font-size: 21px;
+    }
+  }
 }
+
 .recents h2{
   text-transform: uppercase;
 }
 .recents, .bot{
-  padding: 45px 0;
+  padding: 35px 0 15px 0;
 }
 .image-overlay{
   background-color: rgba(0,0,0,0.3);
@@ -67,9 +94,6 @@ footer p{
 .top-bar, .top-bar ul{
   background-color: $secondary-color;
 }
-.callout{
-  background-color: $secondary-color;
-}
 .menu-text{
   color: white;
 }
@@ -81,5 +105,5 @@ footer p{
   color: white;
 }
 .ferme {
-  background-color: rgba(47, 47, 47, 0.6);
+  background-color: rgba(0,0,0,0.5);
 }
