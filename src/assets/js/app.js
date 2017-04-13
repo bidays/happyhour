@@ -20,8 +20,8 @@ $(function() {
     $(".bar_fiche").each(function() {
       var fromHour = $(this).data('from');
       var toHour = $(this).data('to');
-      var from = fromHour.replace("h", "");
-      var to = toHour.replace("h", "");
+      var from = fromHour.replace("h", ".");
+      var to = toHour.replace("h", ".");
       if (currentHour > from && currentHour < to) {}
       else{
         $(this).addClass('ferme');
