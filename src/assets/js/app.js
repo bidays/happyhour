@@ -23,7 +23,9 @@ $(function() {
       var from = fromHour.replace("h", ".");
       var to = toHour.replace("h", ".");
       if (currentHour > from && currentHour < to) {}
+      else if (currentHour == from) {}
       else{
+        // alert(currentHour + "happy:" + from + " a " + to);
         $(this).addClass('ferme');
       }
     });
