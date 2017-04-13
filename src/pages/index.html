@@ -2,19 +2,19 @@
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
       <li class="menu-text">
-        <img class="logo" src="assets/img/logo_happy.svg" alt="Happy Beer - Happy Hour à Lille">
+        <img class="logo" src="assets/img/logo_happy_long.svg" alt="Happy Beer - Happy Hour à Lille">
       </li>
      <!--  <li><a href="#">Accueil</a></li>
       <li><a href="#">Nouveautés</a></li>
       <li><a href="#">Contact</a></li> -->
     </ul>
   </div>
-  <div class="top-bar-right">
-    <ul class="menu">
+  <!-- <div class="top-bar-right">
+    <ul class="menu hide-for-small-only">
       <li><input type="search" placeholder="Mon Happy Hour"></li>
       <li><button type="button" class="button">Recherche</button></li>
     </ul>
-  </div>
+  </div> -->
 </div>
 
 <section class="jumbo">
@@ -25,7 +25,7 @@
               <h4 class="subheader">Nous vous trouvons un happy hour pour boire votre pinte en un click.</h4>
               <br>
               <p class="text-center">
-                  <a href="#" class="large button-msg">
+                  <a href="#" class="large button msg-svg">
                     Trouve ta Pinte
                     <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.582 0 0 3.316 0 7.407c0 2.332 1.163 4.41 2.98 5.77V16l2.725-1.495c.727.2 1.497.31 2.295.31 4.418 0 8-3.317 8-7.408C16 3.317 12.418 0 8 0zm.795 9.975L6.758 7.802 2.783 9.975l4.372-4.642 2.087 2.173 3.926-2.173-4.373 4.642z" fill-rule="nonzero"/></svg>
                   </a>
@@ -37,17 +37,33 @@
 
 <section class="bot">
   <div class="row">
-    <div class="small-6 columns text-left">
+    <div class="small-12 medium-6 columns text-left">
       <h3>Le chat bot qui vous trouve votre happy hour!</h3>
       <hr>
       <p>HappyBeer vous mets à disposition un chat bot qui vous guidera dans votre recherche d'un happy hour directement integré sur Facebook Messenger</p>
       <p class="text-center">
-        <a href="#" class="large button">Trouve ta Pinte</a>
+        <a href="#" class="large button msg-svg">
+          Trouve ta Pinte
+          <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.582 0 0 3.316 0 7.407c0 2.332 1.163 4.41 2.98 5.77V16l2.725-1.495c.727.2 1.497.31 2.295.31 4.418 0 8-3.317 8-7.408C16 3.317 12.418 0 8 0zm.795 9.975L6.758 7.802 2.783 9.975l4.372-4.642 2.087 2.173 3.926-2.173-4.373 4.642z" fill-rule="nonzero"/></svg>
+        </a>
       </p>
     </div>
-    <div class="small-1 columns text-left"></div>
-    <div class="small-4 columns">
-      <img src="assets/img/fbm2.png" alt="">
+    <div class="small-12 medium-6 columns">
+      <img src="assets/img/happybeer_hand.png" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="quartier">
+  <div class="row">
+    <div class="small-12 columns">
+      <h3>Trouvez les happy beer dans votre quartier</h3>
+      <p>Accedez directement directement aux happy hours de votre quartier grace au chat bot</p>
+      <p class="text-center">
+      {{#each quartiers}}
+          <a href="{{this.adresse}}" target="_blank" class="medium button">{{this.name}}</a>
+      {{/each}}
+      </p>
     </div>
   </div>
 </section>
@@ -60,6 +76,7 @@
     {{#each games}}
       <div class="columns bar" >
         <div class="callout bar_fiche" data-from="{{this.de}}" data-to="{{this.a}}">
+          <!--<div class="bar_ouvert">OPEN</div>-->
           <h3 class="label">{{this.name}}</h3>
           <p class="subheader"><strong>{{this.jours}}</strong><br>
           {{this.de}} à {{this.a}}</p>
