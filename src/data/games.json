@@ -2,7 +2,7 @@
   {
     "name": "CAFE OZ AUSTRALIAN BAR LILLE",
     "adresse": "33, Place Louise de Bettignies, 59000 Lille",
-    "jours": "Lundi , Mardi, Samedi",
+    "jours": "Lundi à Samedi",
     "de": "17h",
     "a": "21h ",
     "quartier": "vieux lille"
@@ -10,7 +10,7 @@
   {
     "name": "THE QUEEN'S HEAD",
     "adresse": "2, avenue du Peuple Belge, 59000 Lille",
-    "jours": "Mardi, Samedi",
+    "jours": "Lundi à Samedi",
     "de": "17h",
     "a": "21h ",
     "quartier": "vieux lille"
