@@ -14,7 +14,7 @@ footer{
   }
 }
 .logo{
-  width: 150px;
+  width: 200px;
 }
 .top-bar{
   background-color: transparent;
@@ -99,7 +99,7 @@ footer{
           transform: translate(-50%,-50%);
   }
   .row{
-    height: 100vh
+    height: 100vh;
   }
   h1{
     color: white;
@@ -116,6 +116,7 @@ footer{
     text-transform: uppercase;
   }
 }
+#bars_message{display: none;}
 .recents, .bot{
   padding: 35px 0 15px 0;
 }
@@ -130,6 +131,7 @@ footer{
 }
 .ferme{
   background-color: rgba(0,0,0,0.5);
+  opacity: 0.5;
 }
 
 @-webkit-keyframes ani-mouse {

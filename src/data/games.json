@@ -142,5 +142,29 @@
     "de": "18h",
     "a": "20h ",
     "quartier": "hyper centre"
+  },
+  {
+    "name": "Le Speakeasy",
+    "adresse": "50 Rue Masséna, 59000 Lille",
+    "jours": "Lundi au Dimanche",
+    "de": "17h",
+    "a": "20h ",
+    "quartier": "massena"
+  },
+  {
+    "name": "Le Temple's Bar",
+    "adresse": "20 Rue Masséna, 59000 Lille",
+    "jours": "Lundi au Dimanche",
+    "de": "17h",
+    "a": "22h ",
+    "quartier": "massena"
+  },
+  {
+    "name": "Le Velvet",
+    "adresse": "119 Rue Solférino, 59000 Lille",
+    "jours": "Lundi au Dimanche",
+    "de": "16h",
+    "a": "20h ",
+    "quartier": "massena"
   }
 ]
