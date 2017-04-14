@@ -14,7 +14,7 @@ footer{
   }
 }
 .logo{
-  width: 200px;
+  width: 250px;
 }
 .top-bar{
   background-color: transparent;
@@ -114,6 +114,11 @@ footer{
   h2{
     margin-top: 15px;
     text-transform: uppercase;
+  }
+  svg{
+    margin-top: 30px;
+    fill:$primary-color;
+    width: 40px;
   }
 }
 #bars_message{display: none;}
